@@ -1,0 +1,154 @@
+[0.180s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.180s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faa3fbbbeb8>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faa3fbbbeb8>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faa400abc88>)
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.202s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/brenda/RBIM_ws/src'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(description) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(description) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(description) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(description) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(description) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(description) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(description) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(description) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(description) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'description' with type 'ros.ament_cmake' and name 'description'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gazebo) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gazebo) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gazebo) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gazebo) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gazebo) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gazebo) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gazebo) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gazebo) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_gazebo' with type 'ros.ament_cmake' and name 'robot_gazebo'
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brenda/RBIM_ws/src/build/description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brenda/RBIM_ws/src/install/description', 'merge_install': False, 'path': '/home/brenda/RBIM_ws/src/description', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'robot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brenda/RBIM_ws/src/build/robot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brenda/RBIM_ws/src/install/robot_gazebo', 'merge_install': False, 'path': '/home/brenda/RBIM_ws/src/robot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.227s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.231s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brenda/RBIM_ws/src/description' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brenda/RBIM_ws/src/description'
+[0.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.248s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[0.248s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[0.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brenda/RBIM_ws/src/build/description': CMAKE_PREFIX_PATH=/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake /home/brenda/RBIM_ws/src/description -DCMAKE_INSTALL_PREFIX=/home/brenda/RBIM_ws/src/install/description
+[1.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brenda/RBIM_ws/src/build/description' returned '0': CMAKE_PREFIX_PATH=/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake /home/brenda/RBIM_ws/src/description -DCMAKE_INSTALL_PREFIX=/home/brenda/RBIM_ws/src/install/description
+[1.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brenda/RBIM_ws/src/build/description': CMAKE_PREFIX_PATH=/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/description -- -j8 -l8
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brenda/RBIM_ws/src/build/description' returned '0': CMAKE_PREFIX_PATH=/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/description -- -j8 -l8
+[1.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brenda/RBIM_ws/src/build/description': CMAKE_PREFIX_PATH=/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/description --target install -- -j8 -l8
+[1.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(description)
+[1.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brenda/RBIM_ws/src/build/description' returned '0': CMAKE_PREFIX_PATH=/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/description --target install -- -j8 -l8
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/brenda/RBIM_ws/src/install/description' for CMake module files
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/home/brenda/RBIM_ws/src/install/description' for CMake config files
+[1.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('description', 'cmake_prefix_path')
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brenda/RBIM_ws/src/install/description/share/description/hook/cmake_prefix_path.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brenda/RBIM_ws/src/install/description/share/description/hook/cmake_prefix_path.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brenda/RBIM_ws/src/install/description/share/description/hook/cmake_prefix_path.sh'
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/brenda/RBIM_ws/src/install/description/bin'
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/brenda/RBIM_ws/src/install/description/lib/pkgconfig/description.pc'
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/brenda/RBIM_ws/src/install/description/lib/python3.6/site-packages'
+[1.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/brenda/RBIM_ws/src/install/description/share/description/package.ps1'
+[1.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brenda/RBIM_ws/src/install/description/share/description/package.dsv'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/brenda/RBIM_ws/src/install/description/share/description/package.sh'
+[1.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/brenda/RBIM_ws/src/install/description/share/description/package.bash'
+[1.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/brenda/RBIM_ws/src/install/description/share/description/package.zsh'
+[1.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brenda/RBIM_ws/src/install/description/share/colcon-core/packages/description)
+[1.714s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brenda/RBIM_ws/src/robot_gazebo' with build type 'ament_cmake'
+[1.715s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brenda/RBIM_ws/src/robot_gazebo'
+[1.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.723s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[1.723s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[1.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brenda/RBIM_ws/src/build/robot_gazebo': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake /home/brenda/RBIM_ws/src/robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/brenda/RBIM_ws/src/install/robot_gazebo
+[3.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brenda/RBIM_ws/src/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake /home/brenda/RBIM_ws/src/robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/brenda/RBIM_ws/src/install/robot_gazebo
+[3.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brenda/RBIM_ws/src/build/robot_gazebo': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/robot_gazebo -- -j8 -l8
+[3.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brenda/RBIM_ws/src/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/robot_gazebo -- -j8 -l8
+[3.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brenda/RBIM_ws/src/build/robot_gazebo': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/robot_gazebo --target install -- -j8 -l8
+[3.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_gazebo)
+[3.704s] Level 1:colcon.colcon_core.environment:checking '/home/brenda/RBIM_ws/src/install/robot_gazebo' for CMake module files
+[3.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brenda/RBIM_ws/src/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/robot_gazebo --target install -- -j8 -l8
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/brenda/RBIM_ws/src/install/robot_gazebo' for CMake config files
+[3.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_gazebo', 'cmake_prefix_path')
+[3.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/hook/cmake_prefix_path.ps1'
+[3.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/hook/cmake_prefix_path.dsv'
+[3.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/hook/cmake_prefix_path.sh'
+[3.713s] Level 1:colcon.colcon_core.environment:checking '/home/brenda/RBIM_ws/src/install/robot_gazebo/bin'
+[3.714s] Level 1:colcon.colcon_core.environment:checking '/home/brenda/RBIM_ws/src/install/robot_gazebo/lib/pkgconfig/robot_gazebo.pc'
+[3.714s] Level 1:colcon.colcon_core.environment:checking '/home/brenda/RBIM_ws/src/install/robot_gazebo/lib/python3.6/site-packages'
+[3.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/package.ps1'
+[3.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/package.dsv'
+[3.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/package.sh'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/package.bash'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/package.zsh'
+[3.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brenda/RBIM_ws/src/install/robot_gazebo/share/colcon-core/packages/robot_gazebo)
+[3.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.724s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.737s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.738s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.738s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.744s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.746s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brenda/RBIM_ws/src/install/local_setup.ps1'
+[3.747s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brenda/RBIM_ws/src/install/_local_setup_util_ps1.py'
+[3.750s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brenda/RBIM_ws/src/install/setup.ps1'
+[3.757s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brenda/RBIM_ws/src/install/local_setup.sh'
+[3.758s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brenda/RBIM_ws/src/install/_local_setup_util_sh.py'
+[3.759s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brenda/RBIM_ws/src/install/setup.sh'
+[3.764s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brenda/RBIM_ws/src/install/local_setup.bash'
+[3.765s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brenda/RBIM_ws/src/install/setup.bash'
+[3.771s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brenda/RBIM_ws/src/install/local_setup.zsh'
+[3.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brenda/RBIM_ws/src/install/setup.zsh'

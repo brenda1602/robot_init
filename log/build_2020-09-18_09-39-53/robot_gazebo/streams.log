@@ -1,0 +1,61 @@
+[0.018s] Invoking command in '/home/brenda/RBIM_ws/src/build/robot_gazebo': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake /home/brenda/RBIM_ws/src/robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/brenda/RBIM_ws/src/install/robot_gazebo
+[0.107s] -- The C compiler identification is GNU 7.5.0
+[0.190s] -- The CXX compiler identification is GNU 7.5.0
+[0.194s] -- Check for working C compiler: /usr/bin/cc
+[0.278s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.279s] -- Detecting C compiler ABI info
+[0.357s] -- Detecting C compiler ABI info - done
+[0.366s] -- Detecting C compile features
+[0.585s] -- Detecting C compile features - done
+[0.587s] -- Check for working CXX compiler: /usr/bin/c++
+[0.674s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.674s] -- Detecting CXX compiler ABI info
+[0.766s] -- Detecting CXX compiler ABI info - done
+[0.771s] -- Detecting CXX compile features
+[1.205s] -- Detecting CXX compile features - done
+[1.209s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[1.258s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.258s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.641s] -- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[1.765s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.771s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.772s] -- Added test 'lint_cmake' to check CMake code style
+[1.773s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.776s] -- Added test 'xmllint' to check XML markup files
+[1.780s] -- Configuring done
+[1.785s] -- Generating done
+[1.787s] -- Build files have been written to: /home/brenda/RBIM_ws/src/build/robot_gazebo
+[1.792s] Invoked command in '/home/brenda/RBIM_ws/src/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake /home/brenda/RBIM_ws/src/robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/brenda/RBIM_ws/src/install/robot_gazebo
+[1.795s] Invoking command in '/home/brenda/RBIM_ws/src/build/robot_gazebo': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/robot_gazebo -- -j8 -l8
+[1.854s] Invoked command in '/home/brenda/RBIM_ws/src/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/robot_gazebo -- -j8 -l8
+[1.889s] Invoking command in '/home/brenda/RBIM_ws/src/build/robot_gazebo': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/robot_gazebo --target install -- -j8 -l8
+[1.960s] [36mInstall the project...[0m
+[1.974s] -- Install configuration: ""
+[1.974s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//include
+[1.974s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//include/simulation.xml
+[1.975s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//launch
+[1.975s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//launch/gazebo.launch.py
+[1.975s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//launch/gzserver.launch.py
+[1.975s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//launch/robot.launch.py
+[1.975s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//launch/gzclient.launch.py
+[1.975s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//launch/state.launch.py
+[1.975s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//param
+[1.975s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//src
+[1.976s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//worlds
+[1.976s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo//worlds/empty_world.world
+[1.976s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/ament_index/resource_index/package_run_dependencies/robot_gazebo
+[1.976s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/ament_index/resource_index/parent_prefix_path/robot_gazebo
+[1.976s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/environment/ament_prefix_path.sh
+[1.976s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/environment/ament_prefix_path.dsv
+[1.977s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/environment/path.sh
+[1.977s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/environment/path.dsv
+[1.977s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/local_setup.bash
+[1.977s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/local_setup.sh
+[1.977s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/local_setup.zsh
+[1.977s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/local_setup.dsv
+[1.977s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/package.dsv
+[1.977s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/ament_index/resource_index/packages/robot_gazebo
+[1.978s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig.cmake
+[1.978s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig-version.cmake
+[1.978s] -- Installing: /home/brenda/RBIM_ws/src/install/robot_gazebo/share/robot_gazebo/package.xml
+[1.983s] Invoked command in '/home/brenda/RBIM_ws/src/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brenda/RBIM_ws/src/install/description:/home/brenda/dev_ws/install/turtlesim:/home/brenda/dev_ws/install/robot_gazebo:/home/brenda/dev_ws/install/introduction:/home/brenda/dev_ws/install/dolly:/home/brenda/dev_ws/install/dolly_gazebo:/home/brenda/dev_ws/install/dolly_follow:/home/brenda/dev_ws/install/description:/opt/ros/eloquent:/home/brenda/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/melodic:/opt/ros/kinetic /usr/bin/cmake --build /home/brenda/RBIM_ws/src/build/robot_gazebo --target install -- -j8 -l8
