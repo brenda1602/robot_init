@@ -1,4 +1,0 @@
-<launch>
-    <param name="robot_description" command="$(find description)/src/urdf/robot.urdf"/>
-    <node name="robot_description" pkg="introduction" output="screen"/>
-</launch>
