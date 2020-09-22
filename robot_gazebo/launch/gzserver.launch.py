@@ -24,15 +24,16 @@ from launch.actions import Shutdown
 from launch.conditions import IfCondition, UnlessCondition
 from launch.substitutions import LaunchConfiguration
 from launch.substitutions import PythonExpression
-
+from launch_ros.substitutions import FindPackageShare
 from scripts import GazeboRosPaths
 import os
 
 from ament_index_python.packages import get_package_share_directory
 
+pkg_robot_gazebo= FindPackageShare('robot_gazebo').find('robot_gazebo')
 world_file_name = 'empty_world.world'
 world = os.path.join(
-    get_package_share_directory('robot_gazebo'),
+    pkg_robot_gazebo,
     'worlds',
     world_file_name)
 
