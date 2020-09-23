@@ -33,7 +33,7 @@ from ament_index_python.packages import get_package_share_directory
 pkg_robot_gazebo= FindPackageShare('robot_gazebo').find('robot_gazebo')
 world_file_name = 'empty_world.world'
 world = os.path.join(
-    pkg_robot_gazebo,
+    get_package_share_directory('robot_gazebo'),
     'worlds',
     world_file_name)
 
