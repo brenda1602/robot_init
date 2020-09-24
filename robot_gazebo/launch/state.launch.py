@@ -25,7 +25,7 @@ from ament_index_python.packages import get_package_share_directory
 import xacro 
 
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, ExecuteProcess
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, ExecuteProcess,  SetEnvironmentVariable
 from launch.substitutions import LaunchConfiguration, ThisLaunchFileDir
 from launch_ros.substitutions import FindPackageShare
 from launch.launch_description_sources import PythonLaunchDescriptionSource
@@ -40,13 +40,14 @@ def generate_launch_description():
     pkg_robot_description= FindPackageShare('description').find('description')
     xacro_file=os.path.join(pkg_robot_description,'src', 'urdf', 'robot.xacro')
     doc=xacro.process_file(xacro_file)
-    urdf_file= LaunchConfiguration('urdf_file')
- 
+    urdf= os.path.join(pkg_robot_description,'src', 'urdf', 'robot.urdf')
+    arguments=os.path.join(pkg_robot_description,'src', 'urdf', 'robot.xacro')
 
     robot_desc = doc.toprettyxml(indent='  ')
     robot_desc = robot_desc.replace('"', '\\"')
     spawn_args = '{name: \"robot\", xml: \"'  +  robot_desc + '\"}'
-    params = {'robot_description': robot_desc}
+   
+    config=os.path.join(pkg_robot_gazebo,'plugins','move_config.yaml')
 
       # Gazebo launch
     gazebo = IncludeLaunchDescription(
@@ -56,13 +57,23 @@ def generate_launch_description():
     spawn_entity = ExecuteProcess(
             cmd=['ros2', 'service', 'call', '/spawn_entity', 'gazebo_msgs/SpawnEntity', spawn_args],
             output='screen')
-                        
+
+    rviz = Node(
+        package='rviz2',
+        node_executable='rviz2',
+        arguments=['-d', os.path.join(pkg_robot_gazebo,'rviz','default.rviz')],
+    )
 
     return LaunchDescription(
         [   
             gazebo,
             spawn_entity,
-            
-        ]
-    )
+            Node(
+                package='joint_state_publisher',
+                node_executable='joint_state_publisher',
+                arguments=[str(xacro_file)]),   
+            DeclareLaunchArgument('rviz', default_value='true',
+                              description='Open RViz.'),        
+            rviz
+        ])
         

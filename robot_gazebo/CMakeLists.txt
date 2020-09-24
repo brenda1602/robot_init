@@ -25,7 +25,7 @@ find_package(description REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 install(
-  DIRECTORY include launch param  worlds
+  DIRECTORY include launch  worlds rviz plugins
   DESTINATION share/${PROJECT_NAME}/
 )
 
